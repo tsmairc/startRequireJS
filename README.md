@@ -89,3 +89,5 @@ require(["js/student", "js/class", "js/jquery"], function(student, clz) {
 >通过配置可以解决，baseUrl指明的是所有模块的 base URL，比如”my/module”所加载的 script实际上就是 /js/my/module.js。注意，以 .js 结尾的文件加载时不会使用该 baseUrl，它们仍然会使用当前 index.html所在的相对路径来加载，所以仍然要加上”./js/”。如果 baseUrl没有指定，那么就会使用 data-main中指定的路径。
 paths 中定义的路径是用于替换模块中的路径，如上例中的 some/module 具体的 JavaScript 文件路径是 /js/some/v1/module.js 。
 waitSeconds 是指定最多花多长等待时间来加载一个 JavaScript 文件，用户不指定的情况下默认为 7 秒。
+
+>文章引用于https://www.ibm.com/developerworks/cn/web/1209_shiwei_requirejs/#icomments
