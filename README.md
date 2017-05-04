@@ -90,4 +90,4 @@ require(["js/student", "js/class", "js/jquery"], function(student, clz) {
 paths 中定义的路径是用于替换模块中的路径，如上例中的 some/module 具体的 JavaScript 文件路径是 /js/some/v1/module.js 。
 waitSeconds 是指定最多花多长等待时间来加载一个 JavaScript 文件，用户不指定的情况下默认为 7 秒。
 
->文章引用于https://www.ibm.com/developerworks/cn/web/1209_shiwei_requirejs/#icomments
+>文章参考https://www.ibm.com/developerworks/cn/web/1209_shiwei_requirejs/#icomments
